@@ -28,24 +28,11 @@ ul, ol {list-style-type: none;}
 }
 
 .black{
-    font-family: "Raleway", sans-serif;
     color: #2E2F42;
-    font-weight: 700;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 0.03em;
-
 }
-.light{
-    font-family: "Raleway", sans-serif;
-    color: #F4F4FD;
-    font-weight: 700;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 0.03em;
 
+.light{
+    color: #F4F4FD;
 }
 
 
@@ -64,6 +51,7 @@ ul, ol {list-style-type: none;}
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.02em;
+    color:#2e2f42;
 }
 
 .text {
@@ -121,7 +109,9 @@ ul, ol {list-style-type: none;}
 
 .section-benefits{}
 
-.list-benefits{}
+.list-benefits{
+    background-color: #FFFFFF
+}
 
 .item-benefits{}
 
@@ -155,6 +145,7 @@ ul, ol {list-style-type: none;}
     background-color: #2E2F42;
     color: #F4F4FD;
 }
+
 
 
 
