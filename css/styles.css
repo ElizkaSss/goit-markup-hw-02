@@ -42,7 +42,8 @@ ul, ol {list-style-type: none;}
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    text-transform: capitalize
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 
@@ -79,6 +80,7 @@ ul, ol {list-style-type: none;}
     color: #2E2F42;
 }
 
+.social-links {font-style: normal}
 .social-links .link {
     color: #434455;
 }
@@ -118,8 +120,7 @@ ul, ol {list-style-type: none;}
 
 
 .section-team {
-    background-color: #F4F4FD;
-}
+background-color: #FFFFFF}
 
 .list-team {
 
