@@ -69,21 +69,22 @@ ul, ol {list-style-type: none;}
     font-weight: 500;
     letter-spacing: 0.02em;
     font-style: normal
+    
 }
 
 .link:hover,
 .link:focus {
-    color: #404bbf;
-}
+    color:#404bbf;}
 
 .site-nav .link {
     color: #2E2F42;
 }
 
-.social-links {font-style: normal}
-.social-links .link {
+.social-links {
     color: #434455;
+    font-style: normal;
 }
+
 
 
 
@@ -120,13 +121,12 @@ ul, ol {list-style-type: none;}
 
 
 .section-team {
-background-color: #FFFFFF}
-
-.list-team {
-
+    background-color: #F4F4FD
 }
 
-.item-team{}
+.item-team{
+    background-color: #FFFFFF
+}
 
 .team-img{}
 
@@ -144,7 +144,11 @@ background-color: #FFFFFF}
 
 .page-footer {
     background-color: #2E2F42;
+}
+
+.text-footer {
     color: #F4F4FD;
+    letter-spacing: 0.02em
 }
 
 
