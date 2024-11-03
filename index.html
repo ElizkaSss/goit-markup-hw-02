@@ -24,6 +24,8 @@
 
     <title>Document</title>
 
+    <!-- Critical CSS -->
+
     <!--Custom styles-->
     <link
       rel="stylesheet"
@@ -31,6 +33,7 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <!--Header section-->
     <header>
@@ -38,21 +41,23 @@
         <a class="logo" href="./index.html">
           Web<span class="black">Studio</span>
         </a>
-        <ul class="site-nav">
-          <li><a href="#studio" class="link">Studio</a></li>
-          <li><a href="#contacts" class="link">Contacts</a></li>
-          <li><a href="#porfolio" class="link">Portfolio</a></li>
+        <ul>
+          <li><a href="./index.html" class="nav-link">Studio</a></li>
+          <li><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li><a href="#porfolio" class="nav-link">Portfolio</a></li>
         </ul>
       </nav>
-      <address class="social-links" id="contacts">
+      <address id="contacts">
         <ul>
           <li>
-            <a class="link" href="mailto:info@devstudio.com"
+            <a class="address-link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="address-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
@@ -61,7 +66,7 @@
     <main>
       <!--Title section-->
       <section class="section-title">
-        <h1 class="main-title" id="studio">
+        <h1 class="title-main" id="studio">
           Effective Solutions for Your Business
         </h1>
         <button class="button" type="button">Order Service</button>
@@ -69,8 +74,8 @@
       <!--Benefits section-->
       <section class="section-benefits">
         <h2 hidden>Benefits</h2>
-        <ul class="list-benefits">
-          <li class="item-benefits">
+        <ul class="benefits-list">
+          <li class="benefits-item">
             <h3 class="title">Strategy</h3>
             <p class="text">
               Our goal is to identify the business problem to walk away with the
@@ -78,7 +83,7 @@
             </p>
           </li>
 
-          <li class="item-benefits">
+          <li class="benefits-item">
             <h3 class="title">Punctuality</h3>
             <p class="text">
               Bring the key message to the brand's audience for the best price
@@ -86,7 +91,7 @@
             </p>
           </li>
 
-          <li class="item-benefits">
+          <li class="ibenefits-item">
             <h3 class="title">Diligence</h3>
             <p class="text">
               Research and confirm brands that present the strongest digital
@@ -94,7 +99,7 @@
             </p>
           </li>
 
-          <li class="item-benefits">
+          <li class="benefits-item">
             <h3 class="title">Technologies</h3>
             <p class="text">
               Design practice focused on digital experiences. We bring forth a
@@ -106,8 +111,8 @@
       <!--Team section-->
       <section class="section-team">
         <h2 class="subtitle" id="#team">Our Team</h2>
-        <ul class="list-team">
-          <li class="item-team">
+        <ul class="team-list">
+          <li class="team-item">
             <img
               class="team-img"
               src="./images/1.jpg"
@@ -119,7 +124,7 @@
             <p class="text">Product Designer</p>
           </li>
 
-          <li class="item-team">
+          <li class="team-item">
             <img
               class="team-img"
               src="./images/2.jpg"
@@ -131,7 +136,7 @@
             <p class="text">Frontend Developer</p>
           </li>
 
-          <li class="item-team">
+          <li class="team-item">
             <img
               class="team-img"
               src="./images/3.jpg"
@@ -143,7 +148,7 @@
             <p class="text">Marketing</p>
           </li>
 
-          <li class="item-team">
+          <li class="team-item">
             <img
               class="team-img"
               src="./images/4.jpg"
@@ -159,8 +164,8 @@
       <!--Portfolio section-->
       <section class="section-portfolio">
         <h2 class="subtitle" id="porfolio">Our Portfolio</h2>
-        <ul class="list-portfolio">
-          <li class="item-portfolio">
+        <ul class="portfolio-list">
+          <li class="portfolio-item">
             <img
               class="portfolio-img"
               src="./images/p1.jpg"
@@ -171,7 +176,7 @@
             <h3 class="title">Banking App</h3>
             <p class="text">App</p>
           </li>
-          <li class="item-portfolio">
+          <li class="portfolio-item">
             <img
               class="portfolio-img"
               src="./images/p2.jpg"
@@ -182,7 +187,7 @@
             <h3 class="title">Cashless Payment</h3>
             <p class="text">Marketing</p>
           </li>
-          <li class="item-portfolio">
+          <li class="portfolio-item">
             <img
               class="portfolio-img"
               src="./images/p3.jpg"
@@ -193,7 +198,7 @@
             <h3 class="title">Meditation App</h3>
             <p class="text">App</p>
           </li>
-          <li class="item-portfolio">
+          <li class="portfolio-item">
             <img
               class="portfolio-img"
               src="./images/p4.jpg"
@@ -204,7 +209,7 @@
             <h3 class="title">Taxi Service</h3>
             <p class="text">Marketing</p>
           </li>
-          <li class="item-portfolio">
+          <li class="portfolio-item">
             <img
               class="portfolio-img"
               src="./images/p5.jpg"
@@ -215,7 +220,7 @@
             <h3 class="title">Screen Illustrations</h3>
             <p class="text">Design</p>
           </li>
-          <li class="item-portfolio">
+          <li class="portfolio-item">
             <img
               class="portfolio-img"
               src="./images/p6.jpg"
