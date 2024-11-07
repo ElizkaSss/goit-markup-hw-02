@@ -125,7 +125,10 @@ ul, ol {list-style-type: none;}
 
 .team-list{}
 
-.team-item{background-color: #FFFFFF}
+.team-item{
+    background-color: #FFFFFF;
+    text-align: center
+}
 
 .team-img{}
 
